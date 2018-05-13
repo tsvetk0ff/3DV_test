@@ -2,7 +2,6 @@
     include_once('lib/curl_query.php');
     include_once('lib/sqlite.php');
 
-    
 // Посылаем запрос и получаем данные из сети  
     $url = 'https://api.github.com/users';
     $html = curl_get($url);
